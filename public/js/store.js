@@ -9,8 +9,8 @@
   const SESSION_KEY = 'campusflow:session';
 
   const USERS = [
-    { email: 'student@campus.edu', password: 'password123', role: 'student', name: 'Aarav Mehta', meta: 'B.Tech CSE · Year 2' },
-    { email: 'admin@campus.edu', password: 'password123', role: 'admin', name: 'Dr. Priya Rao', meta: 'Campus Services Desk' },
+    { email: 'student@gmail.com', password: 'password123', role: 'student', name: 'Aarav Mehta', meta: 'B.Tech CSE · Year 2' },
+    { email: 'admin@gmail.com', password: 'password123', role: 'admin', name: 'Dr. Priya Rao', meta: 'Campus Services Desk' },
   ];
 
   const DEPARTMENTS = ['Admin Office', 'Lab Tech', 'Maintenance', 'HOD'];
