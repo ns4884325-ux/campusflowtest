@@ -308,15 +308,6 @@ def page_login():
             email = st.text_input("Email", placeholder="you@campus.edu")
             pw = st.text_input("Password", type="password")
             ok = st.form_submit_button("Sign in →", type="primary", use_container_width=True)
-        c1, c2 = st.columns(2)
-        demo = None
-        if c1.button("🎓 Student demo", use_container_width=True):
-            demo = "student@campus.edu"
-        if c2.button("🛡️ Admin demo", use_container_width=True):
-            demo = "admin@campus.edu"
-        st.caption("Demo password for both: `password123`")
-        if demo:
-            email, pw, ok = demo, "password123", True
         if ok:
             u = USERS.get(email.strip().lower())
             if u and u["password"] == pw:
