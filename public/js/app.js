@@ -137,7 +137,7 @@
           <h2>Sign in</h2>
           <p class="muted">Use your campus account, or pick a demo account below.</p>
           <form data-form="login" novalidate>
-            <div class="field"><label for="email">Email</label><input class="input" id="email" name="email" type="email" autocomplete="username" placeholder="you@campus.edu" required /></div>
+            <div class="field"><label for="email">Email</label><input class="input" id="email" name="email" type="email" autocomplete="username" placeholder="student@gmail.com" required /></div>
             <div class="field"><label for="password">Password</label><input class="input" id="password" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required /></div>
             <div class="form-error" id="login-error"></div>
             <button class="btn btn-primary" type="submit">Sign in →</button>
