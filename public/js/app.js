@@ -142,11 +142,6 @@
             <div class="form-error" id="login-error"></div>
             <button class="btn btn-primary" type="submit">Sign in →</button>
           </form>
-          <div class="demo-accounts">
-            <button class="demo-btn" type="button" data-action="demo-login" data-email="student@campus.edu"><b>🎓 Student demo</b><small>student@campus.edu</small></button>
-            <button class="demo-btn" type="button" data-action="demo-login" data-email="admin@campus.edu"><b>🛡️ Admin demo</b><small>admin@campus.edu</small></button>
-          </div>
-          <p class="faint" style="font-size:.78rem;margin-top:1rem">Demo password for both: <span class="mono">password123</span></p>
         </div>
       </section>
     </div>`;
